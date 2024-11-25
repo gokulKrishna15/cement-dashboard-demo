@@ -1,0 +1,2270 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* Align the content vertically */
+    justify-content: center;
+    /* Vertically center the content */
+    align-items: center;
+    /* Horizontally center the content */
+    height: 100vh;
+    /* Full height */
+    padding: 10px;
+    background-color: #c4c6c8;
+    /* Background color extracted */
+    font-family: Arial, sans-serif;
+
+}
+
+/* Container for silos, fixed to top-left */
+.silos-container {
+    position: absolute;
+    /* Fixed position at top-left */
+    top: 5px;
+    left: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+svg {
+    margin-right: 10px;
+    /* Adjust the spacing between silos */
+}
+
+/* Center the new SVG */
+.center-svg {
+    margin-top: 170px;
+    /* Add margin for spacing */
+}
+
+.cylinder {
+    position: absolute;
+    top: 95px;
+    right: 450px
+}
+
+/* New SVG Container for Ice Cream Cones, positioned at top-right */
+.ice-cream-cones {
+    position: absolute;
+    top: 60px;
+    right: -350px;
+}
+
+.Shape {
+    position: absolute;
+    right: 10px;
+    top: 220px
+}
+
+.shape {
+    position: absolute;
+    top: 370px;
+    right: 160px;
+}
+
+.shape1 {
+    position: absolute;
+    left: 250px;
+    top: 360px;
+}
+
+.shape2 {
+    position: absolute;
+    right: 250px;
+    top: 590px;
+}
+
+.shape3 {
+    position: absolute;
+    left: 470px;
+    top: 550px;
+}
+
+/* CSS for slanting line */
+
+
+.green-line {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 160px;
+    /* Width of the small bar */
+    top: 280px;
+    /* Space around the bars */
+    left: 70px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.green-line1 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 180px;
+    /* Width of the small bar */
+    top: 230px;
+    /* Space around the bars */
+    left: 270px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.green-line2 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 160px;
+    /* Width of the small bar */
+    top: 200px;
+    /* Space around the bars */
+    left: 70px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.green-line3 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 400px;
+    /* Width of the small bar */
+    top: 330px;
+    /* Space around the bars */
+    left: 70px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+
+.green-line4 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 400px;
+    /* Width of the small bar */
+    top: 310px;
+    /* Space around the bars */
+    right: 20px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.green-line5 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 200px;
+    /* Width of the small bar */
+    top: 200px;
+    /* Space around the bars */
+    right: 50px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.green-line6 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 160px;
+    /* Width of the small bar */
+    top: 200px;
+    /* Space around the bars */
+    right: 270px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.green-line7 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 200px;
+    /* Width of the small bar */
+    top: 75px;
+    /* Space around the bars */
+    right: 445px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+
+.green-line8 {
+    position: absolute;
+    height: 190px;
+    /* Height of the bar */
+    background-color: #90ee90;
+    /* Light green color for a softer glow */
+    width: 7px;
+    /* Width of the bar */
+    top: 75px;
+    /* Space around the bars */
+    right: 640px;
+    background: linear-gradient(0deg, #7cfc9c 50%, #b0b0b0 50%);
+    /* Vertical gradient */
+    background-size: 20px 20px;
+    animation: flowVertical 1s linear infinite;
+    /* Vertical flow animation */
+}
+
+.green-line9 {
+    position: absolute;
+    height: 280px;
+    /* Height of the bar */
+    background-color: #90ee90;
+    /* Light green color for a softer glow */
+    width: 7px;
+    /* Width of the bar */
+    top: 75px;
+    /* Space around the bars */
+    right: 6px;
+    background: linear-gradient(0deg, #7cfc9c 50%, #b0b0b0 50%);
+    /* Vertical gradient */
+    background-size: 20px 20px;
+    animation: flowVertical 1s linear infinite;
+    /* Vertical flow animation */
+}
+
+
+.green-line10 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 400px;
+    /* Width of the small bar */
+    top: 350px;
+    /* Space around the bars */
+    right: 7px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.green-line11 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 45px;
+    /* Width of the small bar */
+    top: 75px;
+    /* Space around the bars */
+    right: 9px;
+    background: linear-gradient(90deg, #7cfc9c 50%, #b0b0b0 50%);
+    background-size: 20px 20px;
+    animation: flow 1s linear infinite;
+}
+
+.red-line1 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: red;
+    /* Color of the line */
+    width: 35px;
+    /* Width of the small bar */
+    top: 30px;
+    /* Space around the bars */
+    left: 5px;
+    color: black;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+}
+
+
+.red-line2 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: red;
+    /* Color of the line */
+    width: 35px;
+    /* Width of the small bar */
+    top: 45px;
+    /* Space around the bars */
+    left: 5px;
+
+    color: black;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+.red-line {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 35px;
+    /* Width of the small bar */
+    top: 60px;
+    /* Space around the bars */
+    left: 5px;
+
+    color: black;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+.orange-line1 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: orange;
+    /* Color of the line */
+    width: 35px;
+    /* Width of the small bar */
+    top: 60px;
+    /* Space around the bars */
+    left: 45px;
+
+    color: black;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+.orange-line2 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: orange;
+    /* Color of the line */
+    width: 35px;
+    /* Width of the small bar */
+    top: 45px;
+    /* Space around the bars */
+    left: 45px;
+
+    color: black;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+.orange-line {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: orange;
+    /* Color of the line */
+    width: 35px;
+    /* Width of the small bar */
+    top: 30px;
+    /* Space around the bars */
+    left: 45px;
+
+    color: black;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+
+.black-line {
+    position: absolute;
+    height: 9px;
+    /* Thickness of the line */
+    background-color: black;
+    /* Color of the line */
+    width: 25px;
+    /* Width of the small bar */
+    top: 30px;
+    /* Space around the bars */
+    left: 85px;
+
+    color: violet;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+.black-line1 {
+    position: absolute;
+    height: 9px;
+    /* Thickness of the line */
+    background-color: black;
+    /* Color of the line */
+    width: 25px;
+    /* Width of the small bar */
+    top: 45px;
+    /* Space around the bars */
+    left: 85px;
+
+    color: violet;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+.black-line2 {
+    position: absolute;
+    height: 9px;
+    /* Thickness of the line */
+    background-color: black;
+    /* Color of the line */
+    width: 25px;
+    /* Width of the small bar */
+    top: 59px;
+    /* Space around the bars */
+    left: 85px;
+
+    color: violet;
+    /* Text color to contrast with the red background */
+    font-size: 10px;
+    /* Adjust text size as needed */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    padding: 0;
+    /* Remove padding to ensure proper alignment */
+
+}
+
+@keyframes flowVertical {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 100px;
+        /* Vertical movement */
+    }
+}
+
+@keyframes flow {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100px 0;
+    }
+}
+
+.grey-line {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: rgba(168, 172, 199, 0.742);
+    /* Color of the line */
+    width: 180px;
+    /* Width of the small bar */
+    top: 350px;
+    /* Space around the bars */
+    right: 400px;
+}
+
+
+.grey-line1 {
+    position: absolute;
+    height: 190px;
+    /* Thickness of the line */
+    background-color: rgba(168, 172, 199, 0.742);
+    /* Color of the line */
+    width: 7px;
+    /* Width of the small bar */
+    top: 350px;
+    /* Space around the bars */
+    right: 520px;
+}
+
+.grey-line2 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: rgba(168, 172, 199, 0.742);
+    /* Color of the line */
+    width: 56px;
+    /* Width of the small bar */
+    top: 535px;
+    /* Space around the bars */
+    right: 470px;
+}
+
+.grey-line3 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: rgba(168, 172, 199, 0.742);
+    /* Color of the line */
+    width: 56px;
+    /* Width of the small bar */
+    top: 535px;
+    /* Space around the bars */
+    right: 396px;
+}
+
+.grey-line4 {
+    position: absolute;
+    height: 70px;
+    /* Thickness of the line */
+    background-color: rgba(168, 172, 199, 0.742);
+    /* Color of the line */
+    width: 7px;
+    /* Width of the small bar */
+    top: 500px;
+    /* Space around the bars */
+    right: 390px;
+}
+
+.grey-line5 {
+    position: absolute;
+    height: 140px;
+    /* Thickness of the line */
+    background-color: rgba(168, 172, 199, 0.742);
+    /* Color of the line */
+    width: 7px;
+    /* Width of the small bar */
+    top: 460px;
+    /* Space around the bars */
+    
+}
+
+.normal-line {
+    position: absolute;
+    height: 3px;
+    /* Thickness of the line */
+    background-color: black;
+    /* Color of the line */
+    width: 94px;
+    /* Width of the small bar */
+    top: 433px;
+    /* Space around the bars */
+    left:473px;
+    
+}
+
+.normal-line1 {
+    position: absolute;
+    height: 3px;
+    /* Thickness of the line */
+    background-color: black;
+    /* Color of the line */
+    width: 294px;
+    /* Width of the small bar */
+    top: 489px;
+    /* Space around the bars */
+    right:165px;
+    
+}
+
+.normal-line2 {
+    position: absolute;
+    height: 184px;
+    /* Thickness of the line */
+    background-color: black;
+    /* Color of the line */
+    width: 3px;
+    /* Width of the small bar */
+    bottom: -131px;
+    /* Space around the bars */
+    right:165px;
+    
+}
+
+.normal-line3 {
+    position: absolute;
+    height: 26px;
+    /* Thickness of the line */
+    background-color: black;
+    /* Color of the line */
+    width: 3px;
+    /* Width of the small bar */
+    top: 490px;
+    /* Space around the bars */
+    right:456px;
+    
+}
+
+
+
+.Process_data {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 140px;
+    /* Width of the small bar */
+    top: 20px;
+    /* Space around the bars */
+    right: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    /* Font size adjustment to fit inside the bar */
+    color: black;
+    /* Text color */
+    height: 20px;
+
+    animation: flashEffect 1s infinite alternate;
+    /* Flashing animation */
+}
+
+.process {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 140px;
+    /* Width of the small bar */
+    top: 500px;
+    /* Space around the bars */
+    left: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    /* Font size adjustment to fit inside the bar */
+    color: black;
+    /* Text color */
+    height: 20px;
+
+    animation: flashEffect 1s infinite alternate;
+    /* Flashing animation */
+}
+
+.process1 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 140px;
+    /* Width of the small bar */
+    top: 700px;
+    /* Space around the bars */
+    right: 220px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    /* Font size adjustment to fit inside the bar */
+    color: black;
+    /* Text color */
+    height: 20px;
+
+    animation: flashEffect 1s infinite alternate;
+    /* Flashing animation */
+}
+
+.process2 {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 140px;
+    /* Width of the small bar */
+    top: 670px;
+    /* Space around the bars */
+    left: 430px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    /* Font size adjustment to fit inside the bar */
+    color: black;
+    /* Text color */
+    height: 20px;
+
+    animation: flashEffect 1s infinite alternate;
+    /* Flashing animation */
+}
+
+.safety_interlock {
+    position: absolute;
+    height: 7px;
+    /* Thickness of the line */
+    background-color: lightgreen;
+    /* Color of the line */
+    width: 140px;
+    /* Width of the small bar */
+    top: 20px;
+    /* Space around the bars */
+    right: 670px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    /* Font size adjustment to fit inside the bar */
+    color: black;
+    /* Text color */
+    height: 20px;
+}
+
+
+
+.slant-line {
+    width: 6px;
+    /* Thickness of the line */
+    height: 130px;
+    /* Length of the line */
+    background-color: rgba(168, 172, 199, 0.742);
+    /* Color of the line */
+    transform: rotate(-60deg);
+    /* Rotate to make it slant */
+    position: absolute;
+    /* Position it as desired */
+    top: 299px;
+    /* Adjust the position vertically */
+    left: 520px;
+    /* Adjust the position horizontally */
+}
+
+.arrow {
+    position: absolute;
+    top: 135px;
+    /* Adjust top position */
+    left: 195px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow1 {
+    position: absolute;
+    top: 135px;
+    /* Adjust top position */
+    left: 125px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow2 {
+    position: absolute;
+    top: 135px;
+    /* Adjust top position */
+    left: 55px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow3 {
+    position: absolute;
+    top: 205px;
+    /* Adjust top position */
+    left: 90px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow4 {
+    position: absolute;
+    top: 235px;
+    /* Adjust top position */
+    left: 330px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow5 {
+    position: absolute;
+    top: 135px;
+    /* Adjust top position */
+    left: 265px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow6 {
+    position: absolute;
+    top: 135px;
+    /* Adjust top position */
+    left: 335px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow7 {
+    position: absolute;
+    top: 135px;
+    /* Adjust top position */
+    left: 405px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+
+.arrow8 {
+    position: absolute;
+    top: 275px;
+    /* Adjust top position */
+    right: 10px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow9 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 390px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow10 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 340px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow11 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 290px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow12 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 240px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow13 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 190px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow14 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 140px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow15 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 40px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow16 {
+    position: absolute;
+    top: 145px;
+    /* Adjust top position */
+    right: 90px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow17 {
+    position: absolute;
+    top: 395px;
+    /* Adjust top position */
+    left: 250px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow18 {
+    position: absolute;
+    top: 335px;
+    /* Adjust top position */
+    left: 250px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow19 {
+    position: absolute;
+    top: 435px;
+    /* Adjust top position */
+    left: 450px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow20 {
+    position: absolute;
+    top: 423px;
+    /* Adjust top position */
+    right: 160px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow21 {
+    position: absolute;
+    top: 603px;
+    /* Adjust top position */
+    left: 470px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.arrow22 {
+    position: absolute;
+    top: 633px;
+    /* Adjust top position */
+    right: 250px;
+    /* Adjust left position */
+    transform: rotate(0deg);
+    /* Adjust for different orientations (0 for right, 180 for left, etc.) */
+}
+
+.text-lines {
+    position: absolute;
+    font-size: 8px;
+    color: #333;
+    top: 20px;
+}
+
+.text-lines p {
+    margin: 0;
+    padding: 2px 0;
+}
+
+.outer-square {
+    position: absolute;
+    width: 90px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    left: 40px;
+    top: 370px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square1 {
+    position: absolute;
+    width: 80px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    left: 150px;
+    top: 420px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+
+.outer-square2 {
+    position: absolute;
+    width: 40px;
+    /* Size of the outer square */
+    height: 30px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    right: 80px;
+    top: 440px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square3 {
+    position: absolute;
+    width: 80px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    left: 490px;
+    top: 210px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square4 {
+    position: absolute;
+    width: 80px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    right: 350px;
+    top: 420px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square5 {
+    position: absolute;
+    width: 80px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    right: 260px;
+    top: 510px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square6 {
+    position: absolute;
+    width: 80px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    right: 450px;
+    top: 280px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square7 {
+    position: absolute;
+    width: 80px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    right: 150px;
+    top: 240px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square8 {
+    position: absolute;
+    width: 90px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    left: 300px;
+    top: 540px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.outer-square9 {
+    position: absolute;
+    width: 90px;
+    /* Size of the outer square */
+    height: 50px;
+    /* Size of the outer square */
+    background-color: #d3d3d3;
+    /* Whiteish gray color */
+    right: 420px;
+    top: 640px;
+
+    display: flex;
+    /* Use flexbox to align text */
+    justify-content: center;
+    /* Horizontally center the text */
+    align-items: center;
+    /* Vertically center the text */
+    text-align: center;
+    /* Ensure text is centered */
+    font-size: 12px;
+    /* Adjust font size */
+    color: black;
+    /* Text color */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+
+}
+
+.truck img {
+    position: absolute;
+    width: 60px;
+    /* Adjust width for small size */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: inline-block;
+    /* Ensure it aligns inline with other elements */
+    left: -400px;
+    top: 330px
+}
+
+.bottle img {
+    position: absolute;
+    width: 60px;
+    /* Adjust width for small size */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: inline-block;
+    /* Ensure it aligns inline with other elements */
+    right: -20px;
+    top: 420px;
+    filter: sepia(1) saturate(10) hue-rotate(180deg);
+    transform: rotate(180deg); /* Rotate the image 180 degrees */
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    width: 80px;
+    /* Adjust as needed */
+    height: 30px;
+    /* Adjust as needed */
+    border: 2px solid black;
+    /* Black outline */
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+}
+
+.rectangle1 {
+    position: absolute;
+    bottom: -265px;
+    left: 430px;
+    width: 120px;
+    /* Adjust as needed */
+    height: 80px;
+    /* Adjust as needed */
+    border: 2px solid black;
+    /* Black outline */
+    display: flex;
+    font-size: 12px;
+    align-items: flex-start;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+}
+
+.rectangle2 {
+    position: absolute;
+    bottom: -265px;
+    left: 560px;
+    width: 80px;
+    /* Adjust as needed */
+    height: 80px;
+    /* Adjust as needed */
+    border: 2px solid black;
+    /* Black outline */
+    display: flex;
+    font-size: 12px;
+    align-items: flex-start;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 5px;
+    top: 25px;
+    background-color: green;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle1 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 55px;
+    top: 25px;
+    background-color: green;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle2 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 30px;
+    top: 25px;
+    background-color: green;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle3 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 5px;
+    top: 55px;
+    background-color: lightslategray;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle4 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 56px;
+    top: 55px;
+    background-color: lightslategray;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle5 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 30px;
+    top: 55px;
+    background-color: lightslategray;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle6 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 3px;
+    top: 45px;
+    background-color: lightslategray;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle7 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 20px;
+    top: 45px;
+    background-color: lightslategray;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle8 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 60px;
+    top: 45px;
+    background-color: lightslategray;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle9 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 41px;
+    top: 45px;
+    background-color: green;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle10 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 111px;
+    top: 15px;
+    background-color: lightgreen;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle11 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 85px;
+    top: 15px;
+    background-color: lightgreen;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle12 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 60px;
+    top: 15px;
+    background-color: lightgreen;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle13 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 35px;
+    top: 15px;
+    background-color: lightgreen;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.circle14 {
+    position: absolute;
+    width: 20px;
+    /* Circle size */
+    height: 20px;
+    left: 10px;
+    top: 15px;
+    background-color: lightgreen;
+    /* Circle color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it a perfect circle */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 8px;
+    /* Adjust text size */
+}
+
+.rectangle3 {
+    position: absolute;
+    bottom: -265px;
+    left: 650px;
+    width: 80px;
+    /* Adjust as needed */
+    height: 70px;
+    /* Adjust as needed */
+    border: 2px solid black;
+    /* Black outline */
+    display: flex;
+    font-size: 12px;
+    align-items: flex-start;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+}
+
+.rectangle4 {
+    position: absolute;
+    bottom: -265px;
+    right: 370px;
+    width: 140px;
+    /* Adjust as needed */
+    height: 40px;
+    /* Adjust as needed */
+    border: 2px solid black;
+    /* Black outline */
+    display: flex;
+    /* Enables flexbox */
+    font-size: 12px;
+    align-items: flex-start;
+    /* Moves content closer to the top */
+    justify-content: center;
+    /* Centers content horizontally */
+
+}
+
+.rectangle4 p {
+    margin: 0;
+    /* Remove default margin */
+    position: relative;
+    top: -0px;
+    /* Fine-tune upward position of text */
+}
+
+.rectangle5 {
+    position: absolute;
+    bottom: -265px;
+    right: 160px;
+    width: 80px;
+    /* Adjust as needed */
+    height: 50px;
+    /* Adjust as needed */
+    border: 2px solid black;
+    /* Black outline */
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+}
+
+.rectangle6 {
+    position: absolute;
+    bottom: -265px;
+    right: 250px;
+    width: 100px;
+    /* Adjust as needed */
+    height: 60px;
+    /* Adjust as needed */
+    border: 2px solid black;
+    /* Black outline */
+    display: flex;
+    font-size: 12px;
+    align-items: flex-start;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+}
+
+.rectangle6 p {
+    margin: 0;
+    /* Remove default margin */
+    position: relative;
+    top: 10px;
+    /* Fine-tune upward position of text */
+}
+
+
+.button-container {
+    position: absolute;
+    bottom: -260px;
+    /* Distance from the bottom of the page */
+    right: -60px;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Perfect centering */
+    width: 130px;
+    /* Width for button stack */
+}
+
+.stacked-button {
+    background-color: #d3d3d3;
+    /* Greyish white */
+    border: 1px solid #aaa;
+    /* Slight border for definition */
+    border-radius: 5px;
+    /* Rounded corners */
+    color: black;
+    /* Text color */
+    padding: 10px 15px;
+    /* Button padding */
+    text-align: center;
+    font-size: 8px;
+    margin-top: -10px;
+    /* Overlap buttons */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Slight shadow for depth */
+}
+
+.stacked-button:hover {
+    background-color: #c0c0c0;
+    /* Slightly darker on hover */
+}
+
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon1 {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon2 {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon3 {
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon4 {
+    position: absolute;
+    top: 84px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon5 {
+    position: absolute;
+    top: 103px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon6 {
+    position: absolute;
+    top: 124px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon7 {
+    position: absolute;
+    top: 145px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon8 {
+    position: absolute;
+    top: 163px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: blue;
+    /* Green color */
+}
+
+.icon9 {
+    position: absolute;
+    top: 185px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon10 {
+    position: absolute;
+    top: 205px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon11 {
+    position: absolute;
+    top: 225px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon12 {
+    position: absolute;
+    top: 245px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: green;
+    /* Green color */
+}
+
+.icon13 {
+    position: absolute;
+    top: 275px;
+    left: 5px;
+    width: 10px;
+    /* Size of the square */
+    height: 10px;
+    background-color: blue;
+    /* Green color */
+}
+
+.left-buttons {
+    position: absolute;
+    left: 40px;
+    /* Position towards the left */
+    top: 100%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for perfect vertical centering */
+    width: 80px;
+    /* Width of the button stack */
+}
+
+.right-buttons {
+    position: absolute;
+    left: 140px;
+    /* Position the right buttons slightly to the right of the left buttons */
+    top: 585px;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for perfect vertical centering */
+    width: 80px;
+    /* Width of the right button stack */
+}
+
+/* Style for each button */
+.button-item {
+    background-color: black;
+    /* Black button background */
+    border: 1px solid #555;
+    /* Subtle border for better visibility */
+    border-radius: 5px;
+    /* Rounded corners */
+    color: white;
+    /* White text color */
+    padding: 10px 15px;
+    /* Button padding */
+    text-align: left;
+    /* Align content inside the button */
+    font-size: 14px;
+    /* Font size */
+    margin-top: -10px;
+    /* Overlap buttons */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Slight shadow for depth */
+}
+
+.button-item:hover {
+    background-color: #333;
+    /* Slightly lighter on hover */
+}
+
+/* General table styling */
+.table-container {
+    position: absolute;
+    width: 390px;
+    /* Smaller table width */
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    /* Table border */
+    background-color: #c4c6c8;
+    /* Background color */
+    text-align: center;
+    font-size: 10px;
+    /* Smaller font size */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #aaa;
+    /* Cell borders */
+    padding: 4px;
+    /* Cell padding */
+}
+
+.table-container th {
+    background-color: #ccc;
+    /* Header background */
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.table-container td {
+    font-size: 10px;
+    /* Text font size */
+}
+
+/* Table 1 positioning (left) */
+.table1 {
+    top: 650px;
+    /* Adjust for vertical placement */
+    left: 30px;
+    /* Adjust for left placement */
+}
+
+/* Table 2 positioning (slightly below table 1) */
+.table2 {
+    top: 750px;
+    /* Adjust for vertical placement below Table 1 */
+    left: 30px;
+    /* Align with Table 1 on the left */
+}
+
+/* Square with light green background */
+.s {
+position: absolute;
+width: 70px; /* Adjust size as needed */
+height: 70px;
+background-color: lightgreen;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden; /* Ensure lines don't go outside */
+border: 2px solid #000; /* Optional border for visibility */
+top: 560px;
+}
+
+/* Circle inside the square */
+.o {
+position: absolute;
+width: 50px; /* Adjust size as needed */
+height: 50px;
+background-color: lightgreen;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #000; /* Optional border for visibility */
+}
+
+/* "M" inside the circle */
+.letter {
+font-size: 24px; /* Adjust font size as needed */
+font-weight: bold;
+color: black;
+}
+
+/* Vertical lines with individual classes */
+.vlines {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none; /* Prevent interaction */
+}
+
+.vline1, .vline2, .vline3, .vline4, .vline5, .vline6 {
+position: absolute;
+background-color: black;
+width: 2px; /* Thickness of lines */
+height: 100%; /* Full height of square */
+}
+
+/* Position each line uniquely */
+.vline1 {
+left: 10%;
+}
+.vline2 {
+left: 25%;
+}
+.vline3 {
+left: 40%;
+}
+.vline4 {
+left: 55%;
+}
+.vline5 {
+left: 70%;
+}
+.vline6 {
+left: 85%;
+}
+
+/* Square container with "Tank" text inside */
+.oil {
+position: absolute; /* Use absolute positioning */
+bottom: -190px; /* Center vertically */
+right: 120px; /* Center horizontally */
+transform: translate(-50%, -50%); /* Offset to center perfectly */
+width: 40px; /* Size of the square */
+height: 40px;
+background-color: #b0b0b0; /* Fill color for the tank */
+display: flex; /* Flexbox to center text */
+justify-content: center;
+align-items: center;
+border: 2px solid black; /* Border to define the square */
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+font-size: 10px; /* Text size */
+font-weight: bold; /* Bold text */
+color: black; /* Text color */
+}
